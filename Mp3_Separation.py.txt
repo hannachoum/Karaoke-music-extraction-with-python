@@ -1,0 +1,16 @@
+import os
+from spleeter.separator import Separator
+
+def separate_vocals(input_audio, output_folder):
+    separator = Separator("spleeter:2stems")
+    separator.separate_to_file(input_audio, output_folder, codec='wav')
+
+if __name__ == '__main__':
+    input_audio = "Ed Sheeran - You Need Me.mp3"
+    output_folder = "C:/Users/hanna/Desktop/UNIVERSITE/M1 polytechnique/Projet transversaux/MusicToText"
+
+    # Ensure the output folder exists
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+
+    separate_vocals(input_audio, output_folder)
