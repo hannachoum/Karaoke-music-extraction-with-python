@@ -1,9 +1,4 @@
 # Karaoke - music extraction
-Bien sûr, voici un exemple de README pour le projet "Karaoke Song Extraction" sur GitHub :
-
----
-
-# Karaoke Song Extraction
 
 ## Overview
 The "Karaoke Song Extraction" project is designed to separate vocals from the instrumental parts of a song, effectively creating a karaoke version. This project utilizes advanced audio processing and machine learning techniques to achieve high-quality vocal isolation.
